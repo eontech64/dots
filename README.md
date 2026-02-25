@@ -1,6 +1,6 @@
 # dots
 
-Circle detection using OpenCV's Hough Circle Transform.
+Detects circles in an image using OpenCV's Hough Circle Transform and counts them by color.
 
 ## Requirements
 
@@ -19,3 +19,17 @@ python circles.py [image_file]
 ```
 
 Defaults to `dots.png` if no file is provided.
+
+## Example output
+
+```
+Detected 1794 circles:
+
+  black: 425
+  yellow: 406
+  brown: 357
+  red: 309
+  purple: 145
+  pink: 113
+  gray: 39
+```
